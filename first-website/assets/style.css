@@ -1,0 +1,26 @@
+body {
+    background-color:darkslateblue;
+    font-size: 25px;
+}
+
+
+p {
+    background-color: yellowgreen; 
+    color: rgba(255, 226, 248, 0.8);
+   /* the border shorthand property expects 3 values for the border-width, border-style, and border-color */
+    border: 5px dashed;
+   /* padding is internal spacing for elements. */
+    padding: 50px;
+    /* margins is external spacing around elements. */
+    margin: 50px;
+}
+
+.banner {
+    background-color: plum;
+    text-align: center;
+    border: dotted whitesmoke 10px;
+}
+
+img {
+    max-width: 100%;
+}

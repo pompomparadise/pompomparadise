@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>specificity</title>
+        <link rel="stylesheet" href="../assets/specifcity.css">
+        <style>
+            /* embedded styles are more specific then external styles, but less specific than in-line styles*/
+            header {
+                background: tomato;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>specificity</h1>
+    
+        <!-- inline styles are the most specific. -->
+    <header style="background: pink";>
+        Stylesheet Specifcity <br>
+        external < embedded < in-line
+    </header>
+
+    <main class="class" id="id">
+        Identifier Specifcity <br>
+        tag < class < id
+    </main>
+
+    <footer>
+        Location Specifcity <br>
+        higher < lower
+    </footer>
+
+ </body>
+</html>
