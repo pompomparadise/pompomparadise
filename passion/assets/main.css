@@ -1,0 +1,12 @@
+body {
+    background-image: url("pompudding.jpeg");
+    font-size: 15px;
+
+}
+
+
+
+a {
+    border: 8px dotted rgb(255, 120, 196);
+    font-size: 25px;
+}
