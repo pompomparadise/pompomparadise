@@ -1,12 +1,24 @@
 body {
     background-image: url("pompudding.jpeg");
     font-size: 15px;
-
+    background-size: 10%;
 }
 
-
+h1 {
+    font-size: larger;
+    margin: 25px;
+    background-color: rgb(255, 120, 196, 0.9);
+    padding: 10px;
+}
 
 a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: -10px;
+    margin-inline-start: 10px;
     border: 8px dotted rgb(255, 120, 196);
     font-size: 25px;
+    background-color: rgb(255, 120, 196, 0.3)
+  
 }
+
