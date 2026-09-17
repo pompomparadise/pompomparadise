@@ -1,0 +1,68 @@
+body {
+    background-image: url("../../assets/pompudding.jpeg");
+    font-size: 15px;
+    background-size: 10%;
+}
+
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 8px dotted rgb(255, 120, 196);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(114, 60, 58);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 120, 196, 0.4)
+  
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: rgba(114, 60, 58);
+    text-shadow: 3px 3px 7px hotpink;
+    position: relative;
+    left: 550px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: rgba(114, 60, 58);
+    text-shadow: 3px 3px 7px hotpink;
+    position: relative;
+    left: 300px;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgba(114, 60, 58);
+    text-shadow: 3px 3px 7px hotpink;
+    position: relative;
+    left: 100px;
+
+}
+
+#overflow {
+  background: rgb(255, 255, 255, 0.8);
+  color: hotpink;
+  padding: 15px;
+  height: 200px;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: scroll;
+  font-size: 40px;
+  line-height: 20px;
+  border: 4px dashed rgba(114, 60, 58);
+}
+
+p {
+    color: rgb(114, 60, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
