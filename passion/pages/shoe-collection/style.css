@@ -1,26 +1,21 @@
-body {
-    background-image: url("pompudding.jpeg");
+body{
+    background-image: url("../../assets/pompudding.jpeg");
     font-size: 15px;
     background-size: 10%;
 }
 
-marquee {
-    font-size: 15px;
-    color: rgb(255, 120, 196);
-    background-color: rgba(255, 247, 208, 0.648);
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-content: center;
-    height: 20px;
-    font-style: italic;
+    color: rgba(114, 60, 58);
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 100px;
+    display: inline-block;
+    padding: 20px;
 }
 
-h1 {
-    font-size: larger;
-    margin: 25px;
-    background-color: rgb(255, 120, 196, 0.9);
-    padding: 10px;
-    padding-bottom: 2px;
-    margin-bottom: 0;
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(114, 60, 58);
 }
 
 a {
@@ -37,4 +32,3 @@ a {
     background-color: rgb(255, 120, 196, 0.4)
   
 }
-
