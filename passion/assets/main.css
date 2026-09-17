@@ -4,21 +4,40 @@ body {
     background-size: 10%;
 }
 
+marquee {
+    font-size: 15px;
+    color: rgb(255, 120, 196);
+    background-color: rgba(255, 247, 208, 0.648);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
 h1 {
     font-size: larger;
     margin: 25px;
     background-color: rgb(255, 120, 196, 0.9);
     padding: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
 }
 
 a {
     display: inline-block;
     padding: 5px 10px;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-inline-start: 10px;
+    margin-top: 0;
     border: 8px dotted rgb(255, 120, 196);
-    font-size: 25px;
-    background-color: rgb(255, 120, 196, 0.3)
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: brown;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 120, 196, 0.4)
   
 }
 
