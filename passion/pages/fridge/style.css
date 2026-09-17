@@ -4,6 +4,23 @@ body{
     background-size: 10%;
 }
 
+
+
+/* .inline-block {
+    background-image: url(../fridge/assets/stickynote.png);
+    background-size: 200%;
+    display: inline-block;
+} */
+
+
+
+ul {
+    background-image: url(../fridge/assets/stickynote.png);
+    background-size: 250%;
+    padding: 8%;
+    position:fixed;
+}
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(114, 60, 58);
@@ -29,10 +46,15 @@ a {
     color: rgba(114, 60, 58);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 120, 196, 0.4)
+    background-color: rgb(255, 120, 196, 0.4);
   
 }
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(114, 60, 58);
+    float:left;
+}
+
+img{
+
 }
