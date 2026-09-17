@@ -16,9 +16,12 @@ body{
 
 ul {
     background-image: url(../fridge/assets/stickynote.png);
-    background-size: 250%;
+    background-size: 10px 30px contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 8%;
-    position:fixed;
+    position: fixed;
+    size: 10%;;
 }
 
 h3 {
@@ -55,6 +58,8 @@ ul {
     float:left;
 }
 
-img{
-
+.door {
+    width: 500px;
+    height: 700px;
+    padding: 1px;
 }
