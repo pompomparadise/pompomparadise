@@ -1,0 +1,60 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+/* 
+row flexbox:
+    main-axis = horizontal (x)
+    cross-axis = vertical (y)
+
+column flexbox:
+    main-axis = vertial (y)
+    cross-axis = horizontal (x)
+*/
+.container {
+    background-color: cornflowerblue;
+    padding: 10px;
+    height: 600px;
+
+    display: flex;
+    /* by default, flexboxes will render in the row layout and wrap. */
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    /* justify-content will align contents along the main axis */
+    justify-content: space-evenly;
+
+    /* align-items will align items on the cross-axis, for non-wrapping flexboxes*/
+    align-items: flex-start;
+
+   /* align-content will align items along the cross-axis, for wrapping flexboxes. */
+    align-content: center;
+
+    /* gap, first value is top/bottom/y-axis, and second value is left/right/x-axis */
+    gap: 20px;
+}
+
+.item {
+    background-color: lavender;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 200px;
+}
+
+.two-col {
+    background-color: pink;
+    border: blue 1px solid;
+    padding: 20px;
+    display: flex;
+}
+
+.col {
+    background-color: deeppink;
+    border: purple 1px solid;
+    padding: 20px;
+    width: 50%;
+}

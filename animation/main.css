@@ -1,0 +1,163 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+
+body {
+    margin: 0;
+}
+
+.box {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* define keyframe animation name */
+    animation-name: test;
+    animation-duration: 5s;
+    /* negative values for animation-delay stagger the animation, makes it start in the middle of the animation */
+    animation-delay: 1s;
+    /* loops animation when infinite */
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+
+    /* animation shorthand property!! **1st timed value is duration, 2nd is delay */
+    /* animation: test 5s 1s 1 ease-in-out alternate both; */
+}
+
+/* no effect before or after animation runs */
+@keyframes test {
+    0% {
+     background: orchid;
+     top: 0;
+    }
+    50%{
+        background: coral;
+    }
+    100% {
+        background: pink;
+        top: 200px;
+    }
+}
+
+
+.container {
+    background: lightgreen;
+    height: 100vh;
+    /* main axis is horizontal/x-axis... 
+    justify-content is main axis alignment.
+    align-items is cross-axis alignment*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    background: teal;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: pulse 2s infinite alternate;
+    /* transform-origin: left; ... this keeps the circle in place, but makes it grow toward the right without interupting other shapes inside the container.*/
+}
+/* by default, top-left corner is the position where content grows from. That is why the circle at first seems to grow left aligned and not from its true center... This is made more obvious when the container's align/justify is turned off. */
+@keyframes pulse {
+    0% {
+        background: lightseagreen;
+        /* scale works as multiples. *x */
+        scale: 1;
+    }
+    100% {
+        background: palevioletred;
+        /* this scale means it will double in size. */
+        scale: 2;
+    }
+}
+
+
+
+.square {
+    background: lightsalmon;
+    width: 150px;
+    height: 150px;
+    rotate: 90px;
+    animation: spin 4s infinite linear;
+    /* this makes the square rotate on its left edge. think of it like an anchor point where the spinning is held down. */
+    /* transform-origin: right; */
+}
+@keyframes spin {
+    0% {
+        background: rgba(0, 128, 0, 0.76);
+        rotate: 0;
+    }
+    100% {
+        background: rgba(30, 143, 255, 0.719);
+        rotate: 360deg;
+    }
+}
+
+.mover {
+    background-color: chartreuse;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* for 2 animations, seperate them with a comma */
+    animation: 
+        move 4s infinite linear alternate, 
+        grow 2s infinite alternate,
+        spin 2s infinite linear;
+        /* moveright 4s infinite ease,
+        moveup 6s ease infinite,
+        grow 4s infinite ease alternate; */
+}
+
+@keyframes move {
+    0% {
+        left: -100;
+    }
+    100% {
+        left: 100%;   
+    }
+}
+
+@keyframes grow {
+    0% {
+        scale: 1;
+    }
+    100% {
+        scale: 5;
+    }
+}
+
+.changer {
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+    transition: 
+        all 5s;
+        rotate: 2s;
+}
+
+/* changes color when cursor hovers */
+.changer:hover {
+    background: black;
+    border-radius: 100%;
+    rotate: 180deg;
+}
+
+/* changes color and shrinks when clicked */
+.changer:active {
+    background: purple;
+    scale: .9;
+}

@@ -1,0 +1,78 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    /* browser defaults to ~8px body margin */
+    margin: 0;
+}
+
+/* container is always size relevant to the browser. content inside sizes relative to the size of the container holding it. */
+.container {
+    background-color: paleturquoise;
+    padding: 10px;
+    /* good idea to map height as viewport. essentially a percentage but takes size as the browser */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top {
+    height: 20%;
+    display: flex;
+    flex-wrap: flex;
+    gap: 10px;
+
+}
+
+.top-item {
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items:center; will align the text vertically centered */
+    align-items: center;
+}
+
+.bottom {
+    height: 80%;
+    display: flex;
+    /* gap is applied to the container of the flexed items */
+    gap: 10px;
+}
+
+.left {
+    background-color: chartreuse;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* placed center here b/c it is closest applied to the left */
+.center {
+    background: teal;
+    width: 15%;
+    height: 15%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-item {
+    background-color: blue; 
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

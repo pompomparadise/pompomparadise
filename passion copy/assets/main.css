@@ -1,0 +1,40 @@
+body {
+    background-image: url("../assets/jigglepom.gif");
+    font-size: 15px;
+    background-size: 10%;
+}
+
+marquee {
+    font-size: 20px;
+    color: rgb(200, 255, 0);
+    background-color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+
+}
+
+h1 {
+    font-size: x-large;
+    margin: 25px;
+    padding: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    text-decoration: underline wavy rgb(200, 255, 0) 6px;
+
+}
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 3px dashed rgb(200, 255, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.4)
+  
+}
+

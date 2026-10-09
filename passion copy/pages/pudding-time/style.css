@@ -1,0 +1,52 @@
+body {
+    background-image: url("../../assets/jigglepom.gif");
+    font-size: 15px;
+    background-size: 100%;
+}
+
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    margin-top: 1px;
+    background-color: black;
+    display: inline-block;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+     background-color: black;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 3px dashed rgb(200, 255, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.4)
+  
+}
+
+
+  
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(254, 253, 253);
+    float:left;
+}
+
+.door {
+    width: 500px;
+    height: 700px;
+    padding: 1px;
+}

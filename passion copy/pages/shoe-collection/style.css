@@ -1,0 +1,39 @@
+body {
+    background-image: url("../../assets/jigglepom.gif");
+    font-size: 15px;
+    background-size: 10%;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 255, 0, .7);;
+    background-size: 100px;
+    display: inline-block;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(254, 254, 254);
+    font-style:italic;
+    font-size: 20px;
+}
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 3px dashed rgb(200, 255, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.4)
+  
+}
+
+img {
+    border: blue 5px outset;
+}

@@ -1,0 +1,62 @@
+body {
+    background-image: url("../../assets/jigglepom.gif");
+    font-size: 15px;
+    background-size: 10%;
+}
+
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 3px dashed rgb(200, 255, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.4)
+  
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 7px rgb(200, 255, 0);
+    position: relative;
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 7px rgb(200, 255, 0);
+    position: relative;
+
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 7px rgb(200, 255, 0);
+    position: relative;
+
+}
+
+#overflow {
+  color: rgb(52, 49, 255);
+  padding: 15px;
+  height: 200px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+p {
+    color: rgb(114, 60, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

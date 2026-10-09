@@ -1,0 +1,36 @@
+body {
+    background-image: url(assets/wowpom.gif);
+    font-size: 15px;
+    background-size: 20%;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: hotpink;
+    background-color: rgb(200, 255, 0, .7);;
+    background-size: 100px;
+    padding: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-style: oblique;
+    font-weight:700;
+    background-color: rgb(255, 255, 255, .5);
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-inline-start: 10px;
+    border: 3px dashed rgb(200, 255, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.4)
+  
+}

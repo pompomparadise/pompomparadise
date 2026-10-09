@@ -1,0 +1,142 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.box {
+    background:lightpink;
+    width: 100px;
+    height: 100px;
+    border:1px dotted deeppink;
+    margin: 10px 0;
+    /* ^ if you want to make something center simply/quickly, put auto. but there is limitations to this. only use it for bloack-elements, doesn't work with in-line or in-line block */
+}
+
+/* order of rules is important for specificity! */
+/* when there's a conflict/overlap of rules, the browser has to decide which to prioritize. the browser reads the rules from Top to Bottom */
+
+.relative {
+    background:lightseagreen;
+    position:relative;
+    top:-30px;
+    left:30px;
+}
+
+.fixed {
+    background: lightgreen;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.sticky {
+    background: lightcyan;
+    position: sticky;
+    top: 0;
+}
+
+.absolute {
+    background: lightskyblue;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.a1{
+    top: 600px;
+    right: 100px;
+}
+
+.a2 {
+    top: 500px;
+    left:300px;
+}
+
+.parent {
+    background: hotpink;
+    width: 300px;
+    height: 300px;
+    position: relative;
+  
+}
+
+.child {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:-50px;
+    right: -50px;
+}
+
+.smiley {
+    background: rgb(255, 255, 104);
+    width: 200px;
+    height: 250px;
+    border: dashed 2px orange;
+    position: relative;
+}
+
+.eye {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border: 10px solid white;
+    position: absolute;
+    border-radius: 80%;
+
+}
+
+.left {
+    top: 40px;
+    left: 40px;
+}
+
+.right {
+    top:60px;
+    right: 40px;
+}
+
+.mouth {
+    background-color: rgb(225, 37, 72);
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 80%
+}
+
+.nose {
+    background-color: rgb(251, 208, 51);
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    top: 100px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.pants {
+    background-color: rgb(160, 77, 36);
+    height:50px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+}
+
+.tie {
+    background-color:rgb(225, 37, 72);
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    bottom: 10px;
+    right: 90px;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}

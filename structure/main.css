@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Geist Pixel';font-size: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+
+a {
+   /* position: absolute; */
+    margin: 10px;
+    padding: 5px;
+    border: deeppink dotted 4px;
+    font-family: cursive;
+    font-size: 12px;
+    background-color: rgba(250, 114, 157, 0.214);
+}
+
+.playbutton a {
+    background-color: rgba(255, 255, 255, 0);
+    /* height: 20%; */
+    border: none;
+    font-family: 'Geist Pixel';font-size: 15px;
+    position: relative;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    /* box-shadow: 0 5px rgba(163, 161, 198, 0.281); */
+    /* transition: 0.3s ease-in-out; */
+    right: 205px;
+    top: 250px;
+    display: inline-block;
+}
+
+/* .playbutton a:hover {
+    background-color:rgba(255, 255, 255, 0.817);
+
+} */
+/* .playbutton a:active {
+    background-color:rgba(255, 255, 255, 0.817);
+    box-shadow: 0 5px rgba(0, 0, 255, 0.281);
+} */
+
+/* when cursor hovers on OPEN? button, bg img switches to opened fridge. */
+/* !!NOTE: open button becomes really long when hovering. idk. disabled the box shadow, background-colors, so it is not noticeable */
+.playbutton:has(.hover-link-open:hover) {
+    background-image: url(assets/home-fridgeoutside-OPEN.jpg);
+    width: 100%;
+    justify-content: center;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+}
+
+/* web pg background */
+.container {
+    /* lazy bg --ref. kongregate/newgrounds/coolmathgames ui */
+    background-color: rgb(255, 250, 250);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inside pixel border box */
+.game-container {
+    display: flex;
+    margin: 0;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    border-image:           url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACDklEQVR4AezcUY6DMAxFUTr73/OUfEEscHjktQ1wR0UicmySgxX1p/M38WcVANTKOU2AAmoWMJc706H/8xqedM3bPf45A3q8+gNnAmp+6YD+ADSel695DU+64v7n7e9/6NB9m1MRQE+x7ScBum9zKrIFGs+MeF6eetCFk+L+o0+1tS3QagIDTQBQzas5G9AmkTbhE6DxjBl9rIk1Zn8CtPHIe4cBNb9fQD8AGs849RExP35vG30c16/uv5pPh1Yc/QNA+w2rCoBWHP2Db4H2r/QiFQA1vyhAATULmMvRoYCaBczl6FBAzQLmcnQooGYBczk6FFCzgLncyB1q3up3ygFqdgYUULOAuRwdCqhZwFyODgXULGAuR4cCahYwl6NDATULmMvdrUPNPHo5QHWzNAPQlEcPAqqbpRmApjx6EFDdLM0ANOXRg4DqZmkGoCmPHgRUN0szAE159CCgulma4QCNv0OKv/sZfRzXn4K1gg7Q1jMeFQfU/LoBvQBoPJNGH1tJ6VAr58T/DzV7AvoL0Pg90r2G0evF/b/mBa+vebh8OEMXC8sdoBbGpQigi4XlroCuz4Ny3yocz5S7j4vJ+io+u1cB3Q0S0AUA1c3SDEBTHj24Bbo+L8q9XvVaGWWP2SXtZgtUKsDkWgDQ2qN7BGg3YV3gCGh2vtwhVot0jo6Adj7iWemAmt83oGbQNwAAAP//EKKGCAAAAAZJREFUAwCSJfSpQHf5vwAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
+    border-width:  30x;
+    border-style:  solid;
+    border-image-outset: 16px 15px 20px;
+
+    background-image: url(assets/home-fridgeoutside-CLOSED.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+/* "fridge flaneur" title */
+.titlebox {
+    height: 20%;
+   position: absolute;
+   right: 180px;
+   top: 200px;
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    /* title stays floating on top of both fridge imgs. */
+    z-index: 1;       
+}
+/* "flan" in title */
+.fancytext {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(255, 254, 207);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+/* !!Old hover over fridge img transition */
+/* .hover-button { */
+    /* padding: 5px 10px; */
+    /* color: blue; */
+    /* cursor: pointer; */
+/* } */
+
+/* .game-container:hover { */
+    /* background-image: url(assets/home-fridgeoutside-OPEN.jpg); */
+/* } */
+

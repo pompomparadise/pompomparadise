@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Geist Pixel';font-size: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.type {
+    display: inline-flex;
+}
+
+.shelf-interior {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    background-image: url(../shelf1/shelf.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.dialogue {
+    background-color: rgba(0, 0, 0, 0.524);
+    color: white;
+    position: fixed;
+    flex-direction: column-reverse;
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    padding: 20px;
+    top: 350px;
+    font-size: 30px;
+    box-shadow: -8px 10px 6px -1px rgba(0,0,0,0.59);
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.ribbon {
+    width: 80px;
+    font-size: 20px;
+    padding: 4px;
+    position: absolute;
+    left: -30px;
+    top: -15px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(-20deg);
+    background-color: blue;
+    color: white;
+}
+
+
+.shelf-interior{
+   position: relative;
+   flex: 1;
+   overflow: hidden;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.food1 img {
+    width: 20%;
+    object-fit: contain;
+    align-items: center;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+.text {
+    color: blue;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* web pg background */
+.container {
+    /* lazy bg --ref. kongregate/newgrounds/coolmathgames ui */ 
+    background-color: snow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inside pixel border box */
+.game-container {
+    display: flex;
+    margin: 0;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    align-items: stretch;
+    border-image:           url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACDklEQVR4AezcUY6DMAxFUTr73/OUfEEscHjktQ1wR0UicmySgxX1p/M38WcVANTKOU2AAmoWMJc706H/8xqedM3bPf45A3q8+gNnAmp+6YD+ADSel695DU+64v7n7e9/6NB9m1MRQE+x7ScBum9zKrIFGs+MeF6eetCFk+L+o0+1tS3QagIDTQBQzas5G9AmkTbhE6DxjBl9rIk1Zn8CtPHIe4cBNb9fQD8AGs849RExP35vG30c16/uv5pPh1Yc/QNA+w2rCoBWHP2Db4H2r/QiFQA1vyhAATULmMvRoYCaBczl6FBAzQLmcnQooGYBczk6FFCzgLncyB1q3up3ygFqdgYUULOAuRwdCqhZwFyODgXULGAuR4cCahYwl6NDATULmMvdrUPNPHo5QHWzNAPQlEcPAqqbpRmApjx6EFDdLM0ANOXRg4DqZmkGoCmPHgRUN0szAE159CCgulma4QCNv0OKv/sZfRzXn4K1gg7Q1jMeFQfU/LoBvQBoPJNGH1tJ6VAr58T/DzV7AvoL0Pg90r2G0evF/b/mBa+vebh8OEMXC8sdoBbGpQigi4XlroCuz4Ny3yocz5S7j4vJ+io+u1cB3Q0S0AUA1c3SDEBTHj24Bbo+L8q9XvVaGWWP2SXtZgtUKsDkWgDQ2qN7BGg3YV3gCGh2vtwhVot0jo6Adj7iWemAmt83oGbQNwAAAP//EKKGCAAAAAZJREFUAwCSJfSpQHf5vwAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
+    border-width:  30x;
+    border-style:  solid;
+    border-image-outset: 16px 15px 20px;
+
+    background-image: url(assets/home-fridgeoutside-CLOSED.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
