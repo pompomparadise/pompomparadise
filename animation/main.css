@@ -11,6 +11,7 @@ body {
     margin: 0;
 }
 
+
 .box {
     background-color: aqua;
     width: 100px;
@@ -20,7 +21,7 @@ body {
     animation-name: test;
     animation-duration: 5s;
     /* negative values for animation-delay stagger the animation, makes it start in the middle of the animation */
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     /* loops animation when infinite */
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;

@@ -1,0 +1,265 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    background: linear-gradient(to top, rgb(246, 0, 164), rgb(255, 255, 255));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    overflow: hidden;
+    position: relative;
+    animation: colorfade 3s infinite ease-in-out;
+}
+
+    
+
+.heart {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    margin-right: -20px;
+    animation-name: grow;
+    animation: 
+    move 8s ease-in-out infinite,
+    grow 3s ease-in-out infinite alternate;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+    }
+    100% {
+        bottom: 100%;
+        opacity: .8;
+    }
+}
+@keyframes grow {
+0% {
+    scale: 0.3;
+}
+100% {
+    scale: 1;
+}
+}
+
+.pumpingheart {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    animation-name: grow1;
+    animation: 
+    move 6s 1s ease-in-out infinite,
+    grow 2s ease-in-out infinite alternate;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+    }
+    100% {
+        bottom: 100%;
+        opacity: .8;
+    }
+}
+@keyframes grow1 {
+0% {
+    scale: 1;
+}
+100% {
+    scale: 2;
+}
+}
+
+
+
+.heart3 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 0;
+    animation: 
+    move 7s linear infinite;
+}
+@keyframes move {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+        scale: .2;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.heart4 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    margin-left: 500px;
+    animation-name: grow;
+    animation: 
+    move 6s ease-in-out infinite,
+    grow 6s ease-in-out infinite;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+    }
+    100% {
+        bottom: 100%;
+        opacity: .8;
+    }
+}
+@keyframes grow {
+0% {
+    scale: 1;
+}
+100% {
+    scale: 3;
+}
+}
+
+
+.heart5 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    margin-right: 600px;
+    animation-name: grow;
+    animation: 
+    move 3s 4s ease-in-out infinite,
+    grow 2s ease-in-out infinite alternate;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+        
+    }
+    100% {
+        bottom: 100%;
+        opacity: .8;
+       
+    }
+}
+
+.heart6 {
+    width: 300px;
+    position: absolute;
+    left: 750px;
+    bottom: 0;
+    animation: 
+    move 14s ease-in-out infinite;
+
+}
+@keyframes move {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+        scale: 1;
+
+    }
+    100% {
+        bottom: 100%;
+        opacity: 1;
+        scale: 3;
+        
+    }
+}
+
+.heart7 {
+    height: 80px;
+    position: absolute;
+    width: 80px;
+    right: 40px;
+    animation: 
+    move 6s linear infinite;
+}
+@keyframes move {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+        scale: 1;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 1;
+        scale: 3;
+    }
+}
+
+.heart8 {
+    height: 180px;
+    position: absolute;
+    width: 180px;
+    left: 30px;
+    animation: 
+    move 13s linear infinite;
+}
+@keyframes move {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+        scale: 1;
+       
+    }
+    100% {
+        bottom: 100%;
+        opacity: 1;
+        scale: 3;
+        
+    }
+}
+
+.heart9 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    animation-name: grow1;
+    animation: 
+    move 10s ease-in-out infinite,
+    grow 1s ease-in-out infinite alternate;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 1;
+    }
+}
+@keyframes grow1 {
+0% {
+    scale: 1;
+}
+100% {
+    scale: 2;
+}
+}
