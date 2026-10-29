@@ -24,7 +24,7 @@ a {
 
 .playbutton a {
     background-color: rgba(255, 255, 255, 0.574);
-    border: dotted 2px;
+    border: dotted 3px;
     border-radius: 50%;
     position: relative;
     padding-left: 20px;
@@ -36,8 +36,10 @@ a {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    top:300px;
-    font: 30px italic Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:230px;
+    font-size: 30px;
+font-family: "Chewy", system-ui;
+    letter-spacing: 1px;
 }
 
 .playbutton :hover{

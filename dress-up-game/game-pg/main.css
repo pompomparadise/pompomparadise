@@ -13,15 +13,18 @@ body {
 }
 
 a {
-   /* position: absolute; */
     margin: 10px;
     padding: 5px;
     border: deeppink dotted 4px;
     border-radius: 50%;
-    font-family: cursive;
-    font-size: 14px;
+    font-family: "Chewy", system-ui;
+    font-size: 15px;
     padding: 10px;
+    position: absolute;
     background-color: rgba(250, 114, 157, 0.214);
+    letter-spacing: 1px;
+    left: 85%;
+    top: 85%
 }
 
 a:hover {
