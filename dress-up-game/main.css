@@ -40,6 +40,11 @@ a {
     font: 30px italic Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.playbutton :hover{
+    font-style:italic;
+    color: blueviolet;
+}
+
 .container {
     /* lazy bg --ref. kongregate/newgrounds/coolmathgames ui */
     background-color:rgb(255, 255, 225);
@@ -81,7 +86,7 @@ padding-top: 100px;
     text-shadow: 0 0 15px rgba(255, 14, 203, 0.651), 0 0 10px rgba(255, 32, 244, 0.5);
     /* title stays floating on top of both fridge imgs. */   
     animation: 
-    move 5s ease-in-out;
+    move 4s ease-in-out;
 }
 @keyframes move {
     0% {
