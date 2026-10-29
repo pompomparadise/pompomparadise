@@ -1,0 +1,69 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin: 0;
+}
+
+.buttons {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.container {
+    background: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container.dark {
+    background: purple;
+}
+
+.box {
+    background: peru;
+    height: 100px;
+    width: 100px;
+    animation: spin 5s infinite linear;
+    animation-play-state: paused;
+}
+
+.box.dark {
+    background: navy;
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+@keyframes spin {
+    0% {
+        rotate:0;
+    }
+    100% {
+        rotate:360deg;
+    }
+}
+
+.hachiware {
+    width: 200px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    display: none;
+}
+
+.hachiware.meow {
+    background: red;
+}
+
+.draggable {
+    cursor: grab;
+}

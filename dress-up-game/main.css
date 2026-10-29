@@ -1,0 +1,95 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin: 0;
+        background-color:rgb(255, 255, 225);
+
+}
+
+a {
+   /* position: absolute; */
+    margin: 10px;
+    padding: 5px;
+    border: deeppink dotted 4px;
+    font-family: cursive;
+    font-size: 12px;
+    background-color: rgba(250, 114, 157, 0.214);
+}
+
+.playbutton a {
+    background-color: rgba(255, 255, 255, 0.574);
+    border: dotted 2px;
+    border-radius: 50%;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: deeppink;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top:300px;
+    font: 30px italic Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    /* lazy bg --ref. kongregate/newgrounds/coolmathgames ui */
+    background-color:rgb(255, 255, 225);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.game-container {
+    display: flex;
+    margin: 0;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    border-image:           url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACDklEQVR4AezcUY6DMAxFUTr73/OUfEEscHjktQ1wR0UicmySgxX1p/M38WcVANTKOU2AAmoWMJc706H/8xqedM3bPf45A3q8+gNnAmp+6YD+ADSel695DU+64v7n7e9/6NB9m1MRQE+x7ScBum9zKrIFGs+MeF6eetCFk+L+o0+1tS3QagIDTQBQzas5G9AmkTbhE6DxjBl9rIk1Zn8CtPHIe4cBNb9fQD8AGs849RExP35vG30c16/uv5pPh1Yc/QNA+w2rCoBWHP2Db4H2r/QiFQA1vyhAATULmMvRoYCaBczl6FBAzQLmcnQooGYBczk6FFCzgLncyB1q3up3ygFqdgYUULOAuRwdCqhZwFyODgXULGAuR4cCahYwl6NDATULmMvdrUPNPHo5QHWzNAPQlEcPAqqbpRmApjx6EFDdLM0ANOXRg4DqZmkGoCmPHgRUN0szAE159CCgulma4QCNv0OKv/sZfRzXn4K1gg7Q1jMeFQfU/LoBvQBoPJNGH1tJ6VAr58T/DzV7AvoL0Pg90r2G0evF/b/mBa+vebh8OEMXC8sdoBbGpQigi4XlroCuz4Ny3yocz5S7j4vJ+io+u1cB3Q0S0AUA1c3SDEBTHj24Bbo+L8q9XvVaGWWP2SXtZgtUKsDkWgDQ2qN7BGg3YV3gCGh2vtwhVot0jo6Adj7iWemAmt83oGbQNwAAAP//EKKGCAAAAAZJREFUAwCSJfSpQHf5vwAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
+    border-width:  30x;
+    border-style:  solid;
+    border-image-outset: 16px 15px 20px;
+
+    background-image: url(assets/sparklybg.jpeg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.titlebox {
+   position: fixed;
+align-items: center;
+padding-top: 100px;
+   font-size: 90px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgba(255, 14, 203, 0.651), 0 0 10px rgba(255, 32, 244, 0.5);
+    /* title stays floating on top of both fridge imgs. */   
+    animation: 
+    move 5s ease-in-out;
+}
+@keyframes move {
+    0% {
+        bottom: 0%;
+        opacity: 0;
+    }
+    100% {
+        bottom: 60%;
+        opacity: 1;
+    }
+}
