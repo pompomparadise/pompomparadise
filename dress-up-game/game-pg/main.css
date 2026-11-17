@@ -65,59 +65,59 @@ a:hover {
 
 
 .top3 {
-    max-width: 130px;
+    width: 130px;
     position: absolute;
     left: 85%;
     padding-top: 20px;
 }
 
 .top2 {
-    max-width: 100px;
+    width: 100px;
     position: absolute;
     left: 74%;
     padding-top: 20px;
 }
 
 .top1 {
-    max-width: 140px;
+    width: 140px;
     position: absolute;
     left: 60%;
     padding-top: 20px;
 }
 
 .bottom3 {
-    max-width: 110px;
+    width: 170px;
     position: absolute;
-    padding-top: 200px;
+    top: 200px;
     right: 80%;
 }
 
 .bottom2 {
-    max-width: 110px;
+    width: 110px;
     position: absolute;
-    padding-top: 300px;
+    top: 300px;
     right: 70%;
 }
 
 .bottom1 {
-    max-width: 110px;
+    width: 110px;
     position: absolute;
-    padding-top: 300px;
+    top: 300px;
     right: 60%;
 }
 
 .shoe1 {
-    max-width: 200px;
+    width: 203px;
     position: absolute;
-    padding-top: 400px;
+   top: 400px;
     right: 60%;
 }
 
 .shoe2 {
-    max-width: 180px;
+    width: 200px;
     position: absolute;
-    padding-top: 380px;
-    right: 80%;
+    top:370px;
+    right: 78%;
 }
 
 
